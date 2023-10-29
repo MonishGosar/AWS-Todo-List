@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to bottom, #dcd6f7, #e3eeff 100%);
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #dcd6f7;
+}
+
+.container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.list-group-item {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item:hover {
+    background-color: #f0f0f0;
+}
+
+.checkbox {
+    cursor: pointer;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
